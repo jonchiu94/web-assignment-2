@@ -7,6 +7,7 @@
         $login = explode(", ", $credentials[$i]);
         if (strcmp($email,$login[0])== 0){
             if (strcmp($email,$login[1] == 0)){
+                setcookie("login","true");
                 header("Location: index.php");
                 die();    
              }

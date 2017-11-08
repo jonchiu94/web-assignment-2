@@ -1,4 +1,10 @@
-<?php session_start();?>
+<?php session_start();
+$login = $_COOKIE['login'];
+$false = "false";
+if (strcmp($login, $false) == 0){
+    header("location: login.php");
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">

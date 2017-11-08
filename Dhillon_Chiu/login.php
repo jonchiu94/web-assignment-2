@@ -10,9 +10,9 @@
 </head>
 <body>
     <form action="authenticate.php" method="post" role="form" class="form-horizontal">
-        <div class ="container">
+        
             <div><h1>Please login to enjoy our math game.</h1></div>
-        </div>
+        
         <div>Email:</div>
         <div><input type="email" class="form-control" id="email" name="email" placeholder="Email" size="6">
         </div>
