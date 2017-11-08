@@ -29,6 +29,7 @@
     if (empty($answer)) {
         header("Location: index.php?error1=Enter a number for your answer");
     }   
+if (is_numeric($answer)) {
     if ($answer != $finalAnswer) {
         if ($_SESSION["number3"] == 0) {
             $_SESSION['operate'] = "%2B";
@@ -45,6 +46,7 @@
         $_SESSION["right"]++;
         header("Location: index.php?error4=CORRECT");
     }
+}
 
 
   
