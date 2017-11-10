@@ -37,7 +37,7 @@ if (is_numeric($answer)) {
             $_SESSION['operate'] = $_SESSION["operator"];
         }
         $_SESSION["count"]++;
-        $error2 = "Incorrect, ". $_SESSION["number1"] ." " . $_SESSION["operate"] . " " . $_SESSION["number2"] . " is " . $_SESSION["finAns"];
+        $error2 = "INCORRECT, ". $_SESSION["number1"] ." " . $_SESSION["operate"] . " " . $_SESSION["number2"] . " is " . $_SESSION["finAns"];
         header("Location: index.php?error2=$error2");
     }
 

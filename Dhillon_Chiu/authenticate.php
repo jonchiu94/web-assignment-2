@@ -14,6 +14,4 @@
         }
     }
     header("Location: login.php?error5=Invalid login credentials.")
-    
-
 ?>

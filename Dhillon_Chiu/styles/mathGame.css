@@ -1,0 +1,29 @@
+html {
+    text-align: center;
+    font-weight: bold;
+    color: hotpink;
+}
+
+body {
+    background-image: url("../images/math1.jpg")
+}
+
+.top {
+    height: 180px;
+}
+
+.main {
+	width: 80%;
+	background-color: greenyellow;
+	border-radius: 1em;
+	padding: 2em 2em 4em 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	margin: auto;
+	color: #000;
+	border: 10px solid purple;
+	overflow: auto;
+    height: 325px;
+}
