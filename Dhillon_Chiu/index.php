@@ -1,10 +1,7 @@
 <?php session_start();
 $login = $_COOKIE['login'];
 $false = "false";
-if (!isset($_COOKIE['login'])) {
-    setcookie('login', 'false');
-}
-if (strcmp($login, $false) == 0){
+if (!isset($_SESSION['user'])) {
     header("location: login.php");
 }
 ?>
